@@ -1,8 +1,8 @@
 # 🏡 Home
 
-Welcome to my **Home Kubernetes Cluster Configuration**!  
+Welcome to my **Home Page**!  
 
-This is a collection of applications I have deployed in my personal Kubernetes cluster. Each link provides details on configuration and usage.
+This is a collection of my projects, with the direct links because I am too lazy on the phone to check the favorites tab.
 
 ## 📌 Installed Applications
 
