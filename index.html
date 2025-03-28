@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #333;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .app-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .app-grid a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 50px;
+            padding: 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease;
+        }
+        .app-grid a:hover {
+            transform: scale(1.1);
+        }
+        .footer {
+            margin-top: 20px;
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏡 Home</h1>
+        <p>Welcome to my <strong>Home Page</strong>!</p>
+        <p>This is a collection of my projects, with direct links because I am too lazy on the phone to check the favorites tab.</p>
+        
+        <h2>📌 Installed Applications</h2>
+        <div class="app-grid">
+            <a href="https://mealie.home">🍛</a>
+            <a href="https://pihole.home/admin/index.php">🥓</a>
+            <a href="https://prometheus.home/">💄</a>
+            <a href="https://grafana.home/?orgId=1">📭</a>
+            <a href="https://argocd.home">📦</a>
+            <a href="https://actualbudget.home/budget">💰</a>
+            <a href="https://kube.home">📦</a>
+        </div>
+        
+        <p class="footer">💡 * WIP.* 🚀</p>
+    </div>
+</body>
+</html>
